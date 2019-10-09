@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "esnext",
+        "checkJs": true, /* Typecheck .js files. */
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "resolveJsonModule": true
+    },
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
