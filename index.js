@@ -1,6 +1,6 @@
-import CloudGraph from "./src/cloudgraph/CloudGraph";
+import Smiley from "./src/Smiley";
 
 document.addEventListener("DOMContentLoaded", () => {
-    const cloudGraph = new CloudGraph();
-    cloudGraph.drawRedSquare("#graph1");
+    const smiley = new Smiley("#smiley");
+    smiley.draw();
 })
