@@ -6,10 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Investigation</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    #cloudGraph {
+      background-image: url('./assets/map.jpg');
+      background-size: 100%;
+    }
+
+    svg {
+      border: solid black 1px;
+    }
+  </style>
 </head>
 
 <body>
   <svg id="smiley" width=200 height=200></svg>
+  <svg id="cloudGraph" width=800 height=500></svg>
+  <svg id="bubbleGraph" width=800 height=500></svg>
+  <svg id="forceDirectedGraph" width=800 height=500></svg>
   <script src="./index.js"></script>
 </body>
 
